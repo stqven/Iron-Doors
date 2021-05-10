@@ -1,0 +1,7 @@
+name: Iron-Doors
+main: inv.me.own.Main
+version: 1.0
+author: inv
+api-version: 1.16
+commands:
+  doors:

@@ -1,0 +1,18 @@
+Messages:
+  prefix: "&8| &eIron Doors &8|&7"
+  help-messages:
+    - "%prefix% /doors add <door_id> <door_name> &8* &bGet an iron door"
+    - "%prefix% /doors setName <door_id> <new_name> &8* &bChange the name for an existing door"
+    - "%prefix% /doors giveKey <door_id> <player> &8* &bGive the door's key to a player"
+    - "%prefix% /doors list &8* &bShows the list of the current created doors"
+  player-offline: "%prefix% &e%player% &7is offline!"
+  name-max-length: "%prefix% The name can't have more than &e16 characters"
+  door-created: "%prefix% You have &acreated&7 a door with ID &e(%door_id%)"
+  door-removed: "%prefix% You have &cremoved&7 a door with ID &e(%door_id%)"
+  door-already-exist: "%prefix% A door with id &e(%door_id%) &7already exists here"
+  name-changed: "%prefix% The door's name has been changed to &e%door_name%"
+  wrong-key: "%prefix% This key can't open that door!"
+  door-not-found: "%prefix% Can't find the door with ID &e(%door_id%)&7, create new one by &b/doors add %door_id% <door_name>"
+  key-given: "%prefix% You have given the key &e(%door_id%) &7to &e%player%"
+  key-received: "%prefix% You have received a key for &e(%door_id%)"
+  key-name: "&e%door_id%'s Key"
